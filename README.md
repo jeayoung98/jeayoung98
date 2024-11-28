@@ -1,6 +1,6 @@
 
 
-![Solved.ac Tier](https://solved.ac/tier.svg?username=jeayoung98)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=jeayoung98)](https://solved.ac/jeayoung98)
 
 ## 📚 기술 스택
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
