@@ -26,6 +26,15 @@
 
 <br />
 
+### 🏆 Awards
+
+| 프로젝트 | 수상 |
+| :--- | :--- |
+| **[KMBBJ](https://github.com/jeayoung98/KMBBJ_BACKEND)** · 모의 코인 거래 서비스 | **최우수상** |
+| **ODY** | **특화 프로젝트 2등** |
+
+<br />
+
 ### 📂 Projects
 
 | 프로젝트 | 담당 기능과 구현 |
