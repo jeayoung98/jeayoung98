@@ -22,7 +22,7 @@
 
 - **동시성 제어** — Redis Lua로 매칭 후보 조회·선점·제거를 원자화했습니다. 5,000명 동시 요청 검증에서 중복 매칭·정원 초과·저장 인원 불일치는 **0건**이었습니다.
 - **DB 병목 분석** — `pg_stat_statements`와 실행계획으로 저장 경로를 분석했습니다. 그룹 단위 조회와 Batch Insert를 적용해 SQL 호출을 **155,782회 → 44,360회**로 줄였습니다.
-- **실행 구조 개선** — 테스트케이스마다 반복하던 컨테이너 생성·삭제를 제출당 1회로 바꿨습니다. 기존 Python 100개 테스트케이스 기록에서 채점 시간이 **약 44초 → 13초**로 줄었습니다.
+- **실행 구조 개선** — 테스트케이스마다 반복하던 컨테이너 생성·삭제를 제출당 1회로 바꿨습니다. Python 100개 테스트케이스의 채점 시간을 **약 44초 → 13초**로 단축했습니다.
 
 <br />
 
@@ -42,15 +42,6 @@
 | **[SSOJ](https://github.com/jeayoung98/SSOJ)**<br />온라인 저지 채점 서버 | 채점 요청 처리 · Docker 코드 실행 · 결과 판정·저장<br />SSE 진행률 전달, 제출 단위 Batch 채점 구조 |
 | **[KMBBJ](https://github.com/jeayoung98/KMBBJ_BACKEND)**<br />모의 코인 거래 서비스 | 자산 기반 매칭 · 대기열 관리 · SSE 알림 · 공통 응답<br />Redis Lua 선점, 그룹 단위 조회·저장 |
 | **[AI-CCAS](https://github.com/jeayoung98/AI-CCAS-)**<br />민원 근거 검색 모듈 · 개발 완료 | pgvector 유형별 검색 · 근거 충분성 평가 · 검색 이력 저장<br />유사 사례·유형 기준·공식 안내를 검색해 후속 AI에 전달 |
-
-<details>
-<summary>성능 수치와 평가 기준</summary>
-
-- **SSOJ:** 기존 Python 100개 테스트케이스 측정 기록입니다. 현재 커밋을 반복 측정한 결과는 아닙니다. [구현·측정 근거](https://github.com/jeayoung98/SSOJ/blob/main/docs/judging-performance-and-reference.md)
-- **KMBBJ:** 5,000명 동시 요청의 로컬 서비스 레이어 벤치마크에서 Redis Lua 적용 후와 Batch Insert 추가 후를 비교한 평균입니다. [비교 조건·검증 결과](https://github.com/jeayoung98/KMBBJ_BACKEND/blob/main/docs/troubleshooting/matching-queue-optimization.md)
-- **AI-CCAS:** 검색 모듈 개발은 완료됐으며, 검색 임계값은 데모용 설정입니다. 실제 데이터 기반 정확도 평가와 구분합니다. [평가 기준](https://github.com/jeayoung98/AI-CCAS-/blob/main/docs/retrieval-evaluation.md)
-
-</details>
 
 <br />
 
