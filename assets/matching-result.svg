@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="212" viewBox="0 0 460 212" role="img" aria-label="KMBBJ: 12.74s to 3.48s">
+<rect x="1" y="1" width="458" height="210" rx="16" fill="#101B2D" stroke="#293B53"/>
+<rect x="24" y="25" width="4" height="17" rx="2" fill="#A4B8FF"/>
+<text x="39" y="39" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="bold" fill="#F3F6FC">KMBBJ</text>
+<text x="24" y="65" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" fill="#9CADC5">MATCHING · MEAN PROCESSING TIME</text>
+<text x="24" y="113" font-family="DejaVu Sans,Arial,sans-serif" font-size="30" font-weight="bold" fill="#708198">12.74s</text>
+<path d="M202 101H225M218 95L225 101L218 107" fill="none" stroke="#62758F" stroke-width="2"/>
+<text x="247" y="113" font-family="DejaVu Sans,Arial,sans-serif" font-size="30" font-weight="bold" fill="#A4B8FF">3.48s</text>
+<rect x="24" y="136" width="390" height="7" rx="3.5" fill="#34465E"/>
+<rect x="24" y="150" width="106.5470717922435" height="7" rx="3.5" fill="#A4B8FF"/>
+<text x="24" y="188" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" fill="#9CADC5">Local service benchmark · 5,000 simultaneous requests</text>
+</svg>
