@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="212" viewBox="0 0 460 212" role="img" aria-label="SSOJ: 44s to 13s">
+<rect x="1" y="1" width="458" height="210" rx="16" fill="#101B2D" stroke="#293B53"/>
+<rect x="24" y="25" width="4" height="17" rx="2" fill="#83DEC7"/>
+<text x="39" y="39" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="bold" fill="#F3F6FC">SSOJ</text>
+<text x="24" y="65" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" fill="#9CADC5">PYTHON · TOTAL JUDGING TIME</text>
+<text x="24" y="113" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="bold" fill="#708198">44s</text>
+<path d="M181 101H213M206 95L213 101L206 107" fill="none" stroke="#62758F" stroke-width="2"/>
+<text x="234" y="113" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="bold" fill="#83DEC7">13s</text>
+<rect x="24" y="136" width="390" height="7" rx="3.5" fill="#34465E"/>
+<rect x="24" y="150" width="115.22727272727273" height="7" rx="3.5" fill="#83DEC7"/>
+<text x="24" y="188" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" fill="#9CADC5">Historical measurement · 100 test cases</text>
+</svg>
